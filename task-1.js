@@ -4,20 +4,43 @@
 
 
 
-const numberOfCategories = document.getElementById('categories').children.length;
-
-console.log(`Number of categories: ${numberOfCategories}`)
-
+// const numberOfCategories = document.getElementById('categories').children.length;
+// console.log(`Number of categories: ${numberOfCategories}`)
 
 
 
-const nameEl = document.querySelector('.item').firstElementChild;
-console.log(nameEl)
-console.log(`Category: ${nameEl}`)
-const CategoryEl = document.querySelector('.item').lastElementChild;
-const numbersLength = CategoryEl.children.length;
+// const numberOfCategoriesw = document.getElementById('categories')
 
-console.log(`Elements: ${numbersLength}`)
+// const firstChildren = numberOfCategoriesw.firstElementChild;
+// const firstChildrenbeginning = firstChildren.lastElementChild;
+// const firstChildrenLast = firstChildrenbeginning.children.length;
+// console.log(`Elements:${firstChildrenLast}`)
+
+
+// const secondChildren = numberOfCategoriesw.children[1];
+// const secondChildrenMiddle = secondChildren.children[1];
+// const secondChildrenLast = secondChildrenMiddle.children.length;
+// console.log(`Elements:${secondChildrenLast}`)
+
+
+
+// const thirdchildren = numberOfCategoriesw.lastElementChild;
+// const thirdchildrenEnd = thirdchildren.lastElementChild;
+// const thirdchildrenLast = thirdchildrenEnd.children.length;
+// console.log(`Elements:${thirdchildrenLast}`)
+
+
+// const qwe = document.querySelector('.item')
+// const qwee = qwe.firstElementChild;
+// const rrr = qwee.textContent
+// console.log(`Category:${rrr}`)
+
+// const qwew = document.querySelector('.item')
+// const qweeq = qwew.lastElementChild;
+// // const rrrq = qweeq.textContent
+// console.log(qweeq)
+
+
 
 
 

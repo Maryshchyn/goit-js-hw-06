@@ -28,8 +28,8 @@ for (let i = 0; i < images.length; i += 1){
 }
 newLi.append(...elements)
 
-
-galleryAddEl.append(newLi)
+// galleryAddEl.insertAdjacentHTML('afterbegin', 'li')
+galleryAddEl.appendChild(newLi)
 console.log(galleryAddEl)
 
 
