@@ -4,7 +4,7 @@
 
 
 
-const numberOfCategories = document.querySelector('ul').children.length;
+const numberOfCategories = document.getElementById('categories').children.length;
 
 console.log(`Number of categories: ${numberOfCategories}`)
 

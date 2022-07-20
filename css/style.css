@@ -1,0 +1,28 @@
+.gallery-item__image {
+    width: 320px;
+    border-radius: 8px;
+    
+}
+.gallery-item__image:first-child{
+    margin-top: 50px;
+}
+.gallery-item__image:last-child{
+    margin-bottom: 50px;
+}
+
+.gallery-item__image:not(:first-child){
+margin-top: 10px;
+}
+
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.gallery{
+    background-image: linear-gradient(to bottom,
+                #1606f7,
+                #f3ef09);
+}
