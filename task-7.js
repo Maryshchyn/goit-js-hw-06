@@ -1,6 +1,6 @@
-const input = document.getElementById("font-size-slider");
-const span = document.getElementById("text");
-input.addEventListener("input", handleInputRange);
+const inputEl = document.getElementById("font-size-control");
+const spanEl = document.getElementById("text");
+inputEl.addEventListener("input", handleInputRange);
 function handleInputRange(event) {
-  span.style.fontSize = event.currentTarget.value + "px";
+  spanEl.style.fontSize = event.currentTarget.value + "px";
 }
