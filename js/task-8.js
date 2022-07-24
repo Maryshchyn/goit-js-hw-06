@@ -1,8 +1,6 @@
 
 const form = document.querySelector('.login-form');
-// const onFormsInput = form.querySelectorAll( 'input');
 
-// console.log(form)
 form.addEventListener('submit', onFormsSubmit);
 
 
@@ -14,7 +12,7 @@ function onFormsSubmit(event) {
     const password = formElements.password.value;
 
     if (mail === "" || password === "") {
-       alert("Заповніть порожні поля");
+      return alert("Заповніть порожні поля");
         
         }
 
