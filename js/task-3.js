@@ -16,14 +16,14 @@ const images = [
 const listEl = document.querySelector(`.gallery`);
 console.log(listEl);
 const createElement = img => {
-   return  `<li> <img src="${img.url}" alt="${img.alt}" width = "200" height = "150"> </li>`
+   return  `<li class="gallery-item"> <img class="gallery-img" src="${img.url}" alt="${img.alt}" width = "200" height = "150" > </li>`
  
   
 }
 const galleryList = document.querySelector("#gallery");
 
-// document.body.style.backgroundImage = "linear-gradient(to right, #00008B, #FFFF00)"
-// listEl.setAttribute("style", "list-style-type:none; display: flex; justify-content: center; " );
+document.body.style.backgroundImage = "linear-gradient(to right, #00008B, #FFFF00)"
+
 
 const markUp = images.map(createElement).join("")
 
