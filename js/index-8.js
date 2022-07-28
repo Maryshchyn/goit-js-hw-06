@@ -3,7 +3,6 @@ const form = document.querySelector('.login-form');
 
 form.addEventListener('submit', onFormsSubmit);
 
-
 function onFormsSubmit(event) {
     event.preventDefault();
 
@@ -15,13 +14,11 @@ function onFormsSubmit(event) {
       return alert("Заповніть порожні поля");
         
         }
-
     const formData = new FormData(event.currentTarget);
 
     formData.forEach((value, name) => {
         console.log(value)
         console.log(name)
-
         form.reset();
     })
     
