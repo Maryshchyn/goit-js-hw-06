@@ -1,15 +1,17 @@
 
-const titleEl = document.querySelector('h1');
-titleEl.classList.add('page-title');
-const refs = {
-    inpute: document.querySelector('#name-input'),
-    nameInput: document.querySelector('#name-output'),
+const input = document.getElementById("name-input");
+const nameOutput = document.getElementById("name-output");
+
+input.oninput = function () {
+    if (input.value === '') {
+       nameOutput.innerHTML = 'Anonymous';
+    } else{
+    nameOutput.innerHTML = input.value;
+    }
 }
 
-refs.inpute.addEventListener('input', onInputChange);
 
-function onInputChange(event) {
-    
-    refs.nameInput.textContent = (event.currentTarget.value);
-    console.log(event.currentTarget.value)
-}
+
+
+
+
